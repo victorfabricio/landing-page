@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+.modelo {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-container {
+
+}
+
+.background-section-one {
+    background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: blanchedalmond;
+    flex-direction: column;
+}
+
+.background-section-two {
+    background-image: url(../assets/sacolas.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-container {
+    background: #fff;
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 300px;
+    justify-content: end;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 12px;
+    background: #000;
+    color: #fff;
+}
+
+#logo {
+    width: 600px;
+    height: 600px; 
+}
+
+#texto {
+    font-size: 50px;
+}
+
+footer{
+    height: 20px;
+    padding: 25px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
